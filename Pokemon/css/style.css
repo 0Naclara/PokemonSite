@@ -128,6 +128,7 @@ footer {
     max-width: 800px;  /* Reduzindo o espaço ocupado */
     margin: 40px auto;
     padding: 20px;
+  
  
 
 }
@@ -143,6 +144,7 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+ 
 }
 
 /* Efeito sutil de destaque no hover */
@@ -168,15 +170,11 @@ footer {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-size: 13px;
+    
 }
 
-/* O texto aparece só no hover */
-.card-content {
-    opacity: 0;
-}
-.card:hover .card-content {
-    opacity: 1;
-}
+
+
 
 
 /*css forms*/
@@ -188,7 +186,8 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 400px;
+    width: 400
+
     margin: 50px auto; /* Centraliza horizontalmente */
     display: flex;
     flex-direction: column;
